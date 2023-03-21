@@ -1,0 +1,28 @@
+* { /*browser size adjusting*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    min-height: 550px;
+    background: linear-gradient(rgba(6, 40, 58, 0.7),rgba(32, 49, 55, 0.95)),url('images/bank.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1,h5{
+    color: rgb(249, 251, 251);
+}
+h1>span{
+    color: aqua;
+    text-transform: uppercase;
+}
+h3{
+    color: beige;
+}
+.modal h5{
+    color: black;
+}
